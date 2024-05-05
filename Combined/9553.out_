@@ -1,0 +1,499 @@
+hendrixgpu14fl.unicph.domain
+0
+0 it number
+learning rate: 1.0e-02
+num_dense_layers: 1
+num_dense_nodes: 10
+activation: sigmoid
+lamda: 0.1
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.032122 s
+
+'compile' took 2.727810 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [3.20e-03, 1.02e+00, 8.12e-02]    [3.04e-03, 1.02e+00, 8.12e-02]    []  
+2000      [2.78e-03, 5.72e-03, 7.34e-02]    [6.90e-03, 5.72e-03, 7.34e-02]    []  
+4000      [6.25e-04, 1.48e-03, 7.00e-02]    [1.22e-03, 1.48e-03, 7.00e-02]    []  
+6000      [2.02e-04, 8.64e-04, 7.05e-02]    [4.55e-04, 8.64e-04, 7.05e-02]    []  
+8000      [5.16e-04, 7.30e-04, 7.06e-02]    [4.94e-04, 7.30e-04, 7.06e-02]    []  
+Epoch 8000: early stopping
+
+Best model at step 6000:
+  train loss: 7.15e-02
+  test loss: 7.18e-02
+  test metric: []
+
+Epoch 8000: saving model to Nomagnetic_5th_60/model-8000.ckpt ...
+
+'train' took 9.061375 s
+
+1 it number
+learning rate: 6.9e-03
+num_dense_layers: 8
+num_dense_nodes: 19
+activation: tanh
+lamda: 0.07255540512037871
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.140793 s
+
+'compile' took 24.923420 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [5.11e+01, 8.74e-01, 5.76e-02]    [4.94e+01, 8.74e-01, 5.76e-02]    []  
+2000      [2.34e-03, 6.27e-03, 5.66e-02]    [3.93e-03, 6.27e-03, 5.66e-02]    []  
+4000      [4.06e-02, 5.70e-03, 5.37e-02]    [2.01e-02, 5.70e-03, 5.37e-02]    []  
+Epoch 4000: early stopping
+
+Best model at step 2000:
+  train loss: 6.52e-02
+  test loss: 6.68e-02
+  test metric: []
+
+Epoch 4000: saving model to Nomagnetic_5th_61/model-4000.ckpt ...
+
+'train' took 81.481976 s
+
+2 it number
+learning rate: 3.6e-04
+num_dense_layers: 3
+num_dense_nodes: 25
+activation: sigmoid
+lamda: 0.013065854800735549
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.031700 s
+
+'compile' took 10.316912 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [4.57e-05, 2.19e+00, 1.05e-02]    [4.45e-05, 2.19e+00, 1.05e-02]    []  
+2000      [2.76e-05, 2.66e-04, 2.83e-02]    [2.19e-05, 2.66e-04, 2.83e-02]    []  
+4000      [9.01e-05, 3.81e-04, 2.81e-02]    [7.21e-05, 3.81e-04, 2.81e-02]    []  
+6000      [1.02e-04, 4.04e-04, 2.80e-02]    [8.04e-05, 4.04e-04, 2.80e-02]    []  
+8000      [1.04e-04, 4.04e-04, 2.80e-02]    [7.77e-05, 4.04e-04, 2.80e-02]    []  
+10000     [1.23e-04, 4.07e-04, 2.79e-02]    [7.47e-05, 4.07e-04, 2.79e-02]    []  
+12000     [7.28e-04, 6.31e-04, 1.51e-02]    [1.32e-03, 6.31e-04, 1.51e-02]    []  
+14000     [3.81e-04, 1.67e-04, 9.90e-03]    [9.35e-04, 1.67e-04, 9.90e-03]    []  
+16000     [4.62e-04, 9.13e-05, 9.53e-03]    [7.38e-04, 9.13e-05, 9.53e-03]    []  
+18000     [1.54e-04, 7.41e-05, 9.45e-03]    [4.57e-04, 7.41e-05, 9.45e-03]    []  
+20000     [8.22e-05, 4.85e-05, 9.44e-03]    [2.76e-04, 4.85e-05, 9.44e-03]    []  
+
+Best model at step 20000:
+  train loss: 9.57e-03
+  test loss: 9.76e-03
+  test metric: []
+
+Epoch 20000: saving model to Nomagnetic_5th_62/model-20000.ckpt ...
+
+'train' took 64.600960 s
+
+3 it number
+learning rate: 1.1e-04
+num_dense_layers: 5
+num_dense_nodes: 11
+activation: tanh
+lamda: 0.012538683368444242
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.046016 s
+
+'compile' took 15.148495 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [2.45e+00, 1.47e+00, 9.93e-03]    [2.41e+00, 1.47e+00, 9.93e-03]    []  
+2000      [1.61e-03, 8.10e-04, 2.69e-02]    [1.56e-03, 8.10e-04, 2.69e-02]    []  
+4000      [5.00e-04, 4.95e-04, 2.70e-02]    [5.86e-04, 4.95e-04, 2.70e-02]    []  
+6000      [2.58e-04, 4.92e-04, 2.68e-02]    [2.64e-04, 4.92e-04, 2.68e-02]    []  
+8000      [1.46e-04, 5.61e-04, 2.63e-02]    [1.31e-04, 5.61e-04, 2.63e-02]    []  
+10000     [1.82e-04, 9.24e-04, 2.48e-02]    [3.96e-04, 9.24e-04, 2.48e-02]    []  
+12000     [3.52e-04, 7.98e-04, 1.92e-02]    [5.39e-04, 7.98e-04, 1.92e-02]    []  
+14000     [4.86e-04, 4.69e-04, 1.30e-02]    [7.35e-04, 4.69e-04, 1.30e-02]    []  
+16000     [3.99e-04, 3.67e-04, 1.13e-02]    [8.86e-04, 3.67e-04, 1.13e-02]    []  
+18000     [5.13e-04, 3.16e-04, 1.06e-02]    [1.08e-03, 3.16e-04, 1.06e-02]    []  
+20000     [4.53e-04, 2.79e-04, 1.02e-02]    [1.19e-03, 2.79e-04, 1.02e-02]    []  
+
+Best model at step 20000:
+  train loss: 1.10e-02
+  test loss: 1.17e-02
+  test metric: []
+
+Epoch 20000: saving model to Nomagnetic_5th_63/model-20000.ckpt ...
+
+'train' took 103.702299 s
+
+4 it number
+learning rate: 1.6e-04
+num_dense_layers: 5
+num_dense_nodes: 2
+activation: sin
+lamda: 0.017635770689809285
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.047567 s
+
+'compile' took 18.483665 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [9.45e-01, 1.43e+00, 1.38e-02]    [7.74e-01, 1.43e+00, 1.38e-02]    []  
+2000      [1.30e-02, 3.54e-03, 3.58e-02]    [8.88e-03, 3.54e-03, 3.58e-02]    []  
+4000      [2.60e-03, 8.48e-04, 3.74e-02]    [2.64e-03, 8.48e-04, 3.74e-02]    []  
+6000      [9.22e-04, 6.40e-04, 3.76e-02]    [9.96e-04, 6.40e-04, 3.76e-02]    []  
+8000      [3.97e-04, 5.74e-04, 3.77e-02]    [3.70e-04, 5.74e-04, 3.77e-02]    []  
+10000     [2.27e-04, 5.55e-04, 3.78e-02]    [1.57e-04, 5.55e-04, 3.78e-02]    []  
+12000     [1.89e-04, 5.87e-04, 3.77e-02]    [1.06e-04, 5.87e-04, 3.77e-02]    []  
+14000     [2.14e-04, 6.88e-04, 3.74e-02]    [1.50e-04, 6.88e-04, 3.74e-02]    []  
+16000     [1.02e-03, 5.23e-04, 2.92e-02]    [1.73e-03, 5.23e-04, 2.92e-02]    []  
+18000     [7.89e-04, 1.85e-04, 2.10e-02]    [1.07e-03, 1.85e-04, 2.10e-02]    []  
+20000     [6.24e-04, 9.44e-05, 1.85e-02]    [9.10e-04, 9.44e-05, 1.85e-02]    []  
+
+Best model at step 20000:
+  train loss: 1.93e-02
+  test loss: 1.95e-02
+  test metric: []
+
+Epoch 20000: saving model to Nomagnetic_5th_64/model-20000.ckpt ...
+
+'train' took 107.393329 s
+
+5 it number
+learning rate: 5.4e-02
+num_dense_layers: 9
+num_dense_nodes: 30
+activation: sigmoid
+lamda: 0.024761808027681763
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.075734 s
+
+'compile' took 36.208340 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [1.53e-13, 2.17e+00, 1.98e-02]    [1.56e-13, 2.17e+00, 1.98e-02]    []  
+2000      [2.66e-22, 8.68e-04, 5.33e-02]    [2.22e-22, 8.68e-04, 5.33e-02]    []  
+4000      [2.23e-20, 8.57e-04, 5.33e-02]    [1.92e-20, 8.57e-04, 5.33e-02]    []  
+Epoch 4000: early stopping
+
+Best model at step 2000:
+  train loss: 5.42e-02
+  test loss: 5.42e-02
+  test metric: []
+
+Epoch 4000: saving model to Nomagnetic_5th_65/model-4000.ckpt ...
+
+'train' took 136.038552 s
+
+6 it number
+learning rate: 4.7e-03
+num_dense_layers: 6
+num_dense_nodes: 24
+activation: sin
+lamda: 0.027247850801547492
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.055412 s
+
+'compile' took 20.914217 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [1.33e-01, 1.30e+00, 2.37e-02]    [5.97e-02, 1.30e+00, 2.37e-02]    []  
+2000      [3.29e-03, 6.13e-03, 3.92e-02]    [3.27e-03, 6.13e-03, 3.92e-02]    []  
+4000      [1.43e-03, 9.60e-04, 2.00e-02]    [9.70e-04, 9.43e-04, 2.00e-02]    []  
+6000      [7.58e-04, 3.39e-04, 1.95e-02]    [6.35e-04, 3.45e-04, 1.95e-02]    []  
+8000      [3.60e-04, 1.33e-04, 1.96e-02]    [2.76e-04, 1.34e-04, 1.96e-02]    []  
+10000     [4.74e-04, 3.25e-04, 1.97e-02]    [2.77e-04, 3.34e-04, 1.97e-02]    []  
+Epoch 10000: early stopping
+
+Best model at step 8000:
+  train loss: 2.00e-02
+  test loss: 2.00e-02
+  test metric: []
+
+Epoch 10000: saving model to Nomagnetic_5th_66/model-10000.ckpt ...
+
+'train' took 113.662704 s
+
+7 it number
+learning rate: 1.3e-02
+num_dense_layers: 10
+num_dense_nodes: 2
+activation: sin
+lamda: 0.02901192881449209
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.085502 s
+
+'compile' took 43.717426 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [4.04e-03, 9.90e-01, 2.28e-02]    [4.88e-03, 9.90e-01, 2.28e-02]    []  
+2000      [1.25e-03, 3.74e-03, 4.91e-02]    [1.32e-03, 3.74e-03, 4.91e-02]    []  
+4000      [5.62e-04, 2.35e-03, 5.83e-02]    [5.41e-04, 2.35e-03, 5.83e-02]    []  
+Epoch 4000: early stopping
+
+Best model at step 2000:
+  train loss: 5.41e-02
+  test loss: 5.42e-02
+  test metric: []
+
+Epoch 4000: saving model to Nomagnetic_5th_67/model-4000.ckpt ...
+
+'train' took 153.733176 s
+
+8 it number
+learning rate: 2.5e-03
+num_dense_layers: 4
+num_dense_nodes: 25
+activation: sin
+lamda: 0.011153893091407734
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.040781 s
+
+'compile' took 14.140668 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [3.09e-01, 1.11e+00, 1.01e-02]    [3.20e-01, 1.11e+00, 1.01e-02]    []  
+2000      [5.66e-04, 2.95e-04, 8.65e-03]    [8.96e-04, 2.95e-04, 8.65e-03]    []  
+4000      [9.63e-04, 2.46e-04, 7.99e-03]    [5.42e-04, 2.46e-04, 7.99e-03]    []  
+6000      [1.47e-04, 1.05e-04, 8.02e-03]    [1.82e-04, 1.05e-04, 8.02e-03]    []  
+8000      [8.52e-04, 2.75e-04, 7.95e-03]    [5.95e-04, 2.75e-04, 7.95e-03]    []  
+Epoch 8000: early stopping
+
+Best model at step 6000:
+  train loss: 8.27e-03
+  test loss: 8.30e-03
+  test metric: []
+
+Epoch 8000: saving model to Nomagnetic_5th_68/model-8000.ckpt ...
+
+'train' took 102.731069 s
+
+9 it number
+learning rate: 4.8e-01
+num_dense_layers: 7
+num_dense_nodes: 28
+activation: tanh
+lamda: 0.09447169863034377
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.064884 s
+
+'compile' took 23.747896 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [1.47e-02, 1.13e+00, 7.43e-02]    [1.41e-02, 1.13e+00, 7.43e-02]    []  
+2000      [nan, nan, nan]                   [nan, nan, nan]                   []  
+
+Best model at step 0:
+  train loss: 1.22e+00
+  test loss: 1.22e+00
+  test metric: []
+
+Epoch 2000: saving model to Nomagnetic_5th_69/model-2000.ckpt ...
+
+'train' took 119.048154 s
+
+10 it number
+learning rate: 2.9e-03
+num_dense_layers: 3
+num_dense_nodes: 13
+activation: tanh
+lamda: 0.03978604897061095
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.034723 s
+
+'compile' took 20.961068 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [1.59e+00, 1.75e+00, 3.52e-02]    [1.15e+00, 1.75e+00, 3.52e-02]    []  
+2000      [1.08e-03, 3.26e-03, 2.96e-02]    [1.40e-03, 3.26e-03, 2.96e-02]    []  
+4000      [6.66e-04, 5.66e-04, 2.81e-02]    [7.38e-04, 5.66e-04, 2.81e-02]    []  
+6000      [9.58e-04, 3.66e-04, 2.83e-02]    [1.05e-03, 3.66e-04, 2.83e-02]    []  
+Epoch 6000: early stopping
+
+Best model at step 4000:
+  train loss: 2.94e-02
+  test loss: 2.94e-02
+  test metric: []
+
+Epoch 6000: saving model to Nomagnetic_5th_610/model-6000.ckpt ...
+
+'train' took 95.802903 s
+
+11 it number
+learning rate: 3.2e-02
+num_dense_layers: 1
+num_dense_nodes: 30
+activation: sigmoid
+lamda: 0.1
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.038858 s
+
+'compile' took 5.954111 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [2.67e-02, 3.90e-02, 2.52e-01]    [2.72e-02, 3.90e-02, 2.52e-01]    []  
+2000      [7.96e-05, 7.51e-04, 7.07e-02]    [2.09e-04, 7.51e-04, 7.07e-02]    []  
+4000      [1.98e-04, 8.11e-04, 7.04e-02]    [3.33e-04, 8.11e-04, 7.04e-02]    []  
+6000      [1.21e-04, 8.25e-04, 7.03e-02]    [2.25e-04, 8.25e-04, 7.03e-02]    []  
+8000      [2.71e-04, 1.01e-03, 7.01e-02]    [4.26e-04, 1.01e-03, 7.01e-02]    []  
+Epoch 8000: early stopping
+
+Best model at step 6000:
+  train loss: 7.13e-02
+  test loss: 7.14e-02
+  test metric: []
+
+Epoch 8000: saving model to Nomagnetic_5th_611/model-8000.ckpt ...
+
+'train' took 81.019923 s
+
+12 it number
+learning rate: 9.0e-04
+num_dense_layers: 10
+num_dense_nodes: 1
+activation: sigmoid
+lamda: 0.1
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.188231 s
+
+'compile' took 42.351348 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [4.79e-16, 2.43e-01, 1.26e-01]    [4.29e-16, 2.43e-01, 1.26e-01]    []  
+2000      [1.02e-17, 1.23e-02, 1.97e-01]    [6.39e-18, 1.23e-02, 1.97e-01]    []  
+4000      [1.65e-16, 1.23e-02, 1.97e-01]    [1.08e-16, 1.23e-02, 1.97e-01]    []  
+Epoch 4000: early stopping
+
+Best model at step 2000:
+  train loss: 2.09e-01
+  test loss: 2.09e-01
+  test metric: []
+
+Epoch 4000: saving model to Nomagnetic_5th_612/model-4000.ckpt ...
+
+'train' took 174.142099 s
+
+13 it number
+learning rate: 4.2e-02
+num_dense_layers: 10
+num_dense_nodes: 1
+activation: sigmoid
+lamda: 0.01
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.092396 s
+
+'compile' took 56.194953 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [5.29e-23, 4.94e-02, 1.73e-02]    [5.41e-23, 4.94e-02, 1.73e-02]    []  
+2000      [1.91e-20, 1.46e-04, 2.19e-02]    [1.93e-20, 1.46e-04, 2.19e-02]    []  
+4000      [1.42e-04, 2.00e-04, 2.15e-02]    [2.01e-04, 2.00e-04, 2.15e-02]    []  
+6000      [1.49e-04, 1.97e-04, 2.15e-02]    [2.35e-04, 1.97e-04, 2.15e-02]    []  
+8000      [1.50e-04, 1.96e-04, 2.15e-02]    [2.38e-04, 1.96e-04, 2.15e-02]    []  
+Epoch 8000: early stopping
+
+Best model at step 8000:
+  train loss: 2.19e-02
+  test loss: 2.20e-02
+  test metric: []
+
+Epoch 8000: saving model to Nomagnetic_5th_613/model-8000.ckpt ...
+
+'train' took 202.173591 s
+
+14 it number
+learning rate: 6.0e-03
+num_dense_layers: 2
+num_dense_nodes: 19
+activation: sigmoid
+lamda: 0.05099111561396138
+
+Warning: 200 points required, but 210 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.034286 s
+
+'compile' took 10.756678 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [1.27e-03, 1.77e-01, 7.04e-02]    [1.27e-03, 1.77e-01, 7.04e-02]    []  
+2000      [9.46e-04, 2.41e-03, 3.59e-02]    [1.03e-03, 2.41e-03, 3.59e-02]    []  
+4000      [2.70e-03, 8.19e-04, 3.59e-02]    [1.48e-03, 8.19e-04, 3.59e-02]    []  
+Epoch 4000: early stopping
+
+Best model at step 2000:
+  train loss: 3.92e-02
+  test loss: 3.93e-02
+  test metric: []
+
+Epoch 4000: saving model to Nomagnetic_5th_614/model-4000.ckpt ...
+
+'train' took 119.362400 s
+
+[0.002469218272788538, 4, 25, 'sin', 0.011153893091407734]
