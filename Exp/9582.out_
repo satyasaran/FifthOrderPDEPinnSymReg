@@ -1,0 +1,40 @@
+hendrixgpu04fl.unicph.domain
+0
+Warning: 2000 points required, but 2025 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.043217 s
+
+'compile' took 15.643015 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [1.22e-03, 5.98e-04, 1.44e-03]    [1.47e-03, 6.02e-04, 1.44e-03]    []  
+500       [5.21e-06, 7.19e-06, 1.40e-03]    [2.57e-06, 7.25e-06, 1.40e-03]    []  
+1000      [7.00e-06, 1.15e-05, 1.36e-03]    [3.97e-06, 1.15e-05, 1.36e-03]    []  
+1500      [9.76e-05, 7.23e-05, 9.76e-04]    [1.34e-04, 7.24e-05, 9.76e-04]    []  
+2000      [8.77e-06, 1.35e-05, 7.62e-04]    [1.07e-05, 1.40e-05, 7.62e-04]    []  
+2500      [4.16e-06, 7.04e-06, 7.23e-04]    [5.24e-06, 6.93e-06, 7.23e-04]    []  
+3000      [5.51e-05, 1.66e-04, 7.20e-04]    [4.92e-05, 1.68e-04, 7.20e-04]    []  
+3500      [1.31e-06, 2.55e-06, 7.12e-04]    [1.29e-06, 2.52e-06, 7.12e-04]    []  
+4000      [1.14e-06, 3.04e-06, 7.11e-04]    [1.56e-06, 2.98e-06, 7.11e-04]    []  
+4500      [3.46e-06, 1.19e-05, 7.09e-04]    [4.74e-06, 1.15e-05, 7.09e-04]    []  
+5000      [4.50e-06, 1.26e-05, 7.13e-04]    [2.13e-06, 1.23e-05, 7.13e-04]    []  
+5500      [1.23e-05, 1.83e-06, 7.10e-04]    [1.09e-05, 1.84e-06, 7.10e-04]    []  
+Epoch 5500: early stopping
+
+Best model at step 4000:
+  train loss: 7.15e-04
+  test loss: 7.15e-04
+  test metric: []
+
+Epoch 5500: saving model to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/model-5500.ckpt ...
+
+'train' took 41.528065 s
+
+Saving loss history to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/loss.dat ...
+Saving training data to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/train.dat ...
+Saving test data to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/test.dat ...
+Warning: 2000 points required, but 2025 points sampled.
+Mean residual: 0.0029079623
