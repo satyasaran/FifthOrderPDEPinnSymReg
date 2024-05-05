@@ -1,0 +1,45 @@
+hendrixgpu02fl.unicph.domain
+0
+Warning: 2000 points required, but 2025 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.048266 s
+
+'compile' took 17.557155 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [1.99e-01, 2.20e+00, 8.22e-03]    [1.39e-01, 2.20e+00, 8.22e-03]    []  
+500       [9.69e-05, 2.82e-04, 2.16e-02]    [3.71e-05, 2.83e-04, 2.16e-02]    []  
+1000      [8.51e-05, 3.37e-04, 2.11e-02]    [3.26e-05, 3.37e-04, 2.11e-02]    []  
+1500      [4.67e-03, 1.36e-03, 1.42e-02]    [3.87e-03, 1.37e-03, 1.42e-02]    []  
+2000      [6.83e-04, 3.67e-04, 8.81e-03]    [7.88e-04, 3.67e-04, 8.81e-03]    []  
+2500      [2.26e-04, 1.59e-04, 7.69e-03]    [3.93e-04, 1.60e-04, 7.69e-03]    []  
+3000      [4.33e-04, 1.35e-04, 7.40e-03]    [4.40e-04, 1.36e-04, 7.40e-03]    []  
+3500      [1.51e-03, 3.42e-04, 7.32e-03]    [1.35e-03, 3.34e-04, 7.32e-03]    []  
+4000      [1.67e-04, 6.10e-05, 7.33e-03]    [1.91e-04, 6.18e-05, 7.33e-03]    []  
+4500      [1.08e-04, 6.65e-05, 7.34e-03]    [1.53e-04, 6.42e-05, 7.34e-03]    []  
+5000      [4.92e-04, 9.99e-05, 7.26e-03]    [5.29e-04, 1.03e-04, 7.26e-03]    []  
+5500      [3.31e-04, 9.33e-05, 7.24e-03]    [2.97e-04, 9.40e-05, 7.24e-03]    []  
+6000      [6.73e-05, 5.77e-05, 7.24e-03]    [1.14e-04, 5.87e-05, 7.24e-03]    []  
+6500      [2.66e-03, 6.99e-04, 7.19e-03]    [1.84e-03, 6.99e-04, 7.19e-03]    []  
+7000      [6.11e-04, 1.37e-04, 7.26e-03]    [6.36e-04, 1.27e-04, 7.26e-03]    []  
+7500      [2.22e-04, 6.42e-05, 7.25e-03]    [1.29e-04, 6.70e-05, 7.25e-03]    []  
+8000      [4.04e-04, 1.33e-04, 7.24e-03]    [3.04e-04, 1.35e-04, 7.24e-03]    []  
+Epoch 8000: early stopping
+
+Best model at step 6000:
+  train loss: 7.36e-03
+  test loss: 7.41e-03
+  test metric: []
+
+Epoch 8000: saving model to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthEvoPINN/Combined_Initial_New/Train/model-8000.ckpt ...
+
+'train' took 44.458610 s
+
+Saving loss history to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthEvoPINN/Combined_Initial_New/Train/loss.dat ...
+Saving training data to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthEvoPINN/Combined_Initial_New/Train/train.dat ...
+Saving test data to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthEvoPINN/Combined_Initial_New/Train/test.dat ...
+Warning: 2000 points required, but 2025 points sampled.
+Mean residual: 0.01427384
