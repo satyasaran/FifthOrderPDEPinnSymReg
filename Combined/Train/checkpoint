@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthEvoPINN/Combined_Initial_New/Train/model-8000.ckpt"
-all_model_checkpoint_paths: "/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthEvoPINN/Combined_Initial_New/Train/model-8000.ckpt"
+model_checkpoint_path: "/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymReg/Combined/Train/model-10000.ckpt"
+all_model_checkpoint_paths: "/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymReg/Combined/Train/model-10000.ckpt"

@@ -1,0 +1,50 @@
+hendrixgpu01fl.unicph.domain
+0
+Warning: 2000 points required, but 2025 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.050162 s
+
+'compile' took 15.946592 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [4.63e-02, 1.42e+00, 5.63e-03]    [7.20e-02, 1.42e+00, 5.63e-03]    []  
+500       [9.04e-05, 2.02e-04, 1.49e-02]    [4.19e-05, 2.04e-04, 1.49e-02]    []  
+1000      [9.22e-05, 2.31e-04, 1.46e-02]    [5.14e-05, 2.31e-04, 1.46e-02]    []  
+1500      [3.40e-04, 2.81e-04, 1.38e-02]    [1.99e-04, 2.81e-04, 1.38e-02]    []  
+2000      [4.16e-04, 2.50e-04, 1.03e-02]    [6.53e-04, 2.50e-04, 1.03e-02]    []  
+2500      [8.02e-05, 2.40e-04, 8.24e-03]    [1.74e-04, 2.39e-04, 8.24e-03]    []  
+3000      [6.55e-04, 2.07e-04, 6.77e-03]    [6.86e-04, 2.07e-04, 6.77e-03]    []  
+3500      [2.44e-04, 9.52e-05, 6.46e-03]    [1.69e-04, 9.40e-05, 6.46e-03]    []  
+4000      [2.75e-04, 1.04e-04, 6.51e-03]    [1.74e-04, 1.04e-04, 6.51e-03]    []  
+4500      [2.03e-04, 8.04e-05, 6.27e-03]    [1.74e-04, 8.08e-05, 6.27e-03]    []  
+5000      [4.13e-04, 9.20e-05, 6.25e-03]    [3.09e-04, 9.25e-05, 6.25e-03]    []  
+5500      [1.05e-04, 7.27e-05, 6.24e-03]    [1.11e-04, 7.28e-05, 6.24e-03]    []  
+6000      [1.28e-04, 7.88e-05, 6.23e-03]    [1.27e-04, 7.92e-05, 6.23e-03]    []  
+6500      [2.91e-04, 7.17e-05, 6.29e-03]    [1.32e-04, 7.03e-05, 6.30e-03]    []  
+7000      [9.71e-05, 7.32e-05, 6.21e-03]    [1.19e-04, 7.33e-05, 6.22e-03]    []  
+7500      [7.42e-05, 7.18e-05, 6.30e-03]    [6.02e-05, 7.18e-05, 6.30e-03]    []  
+8000      [1.17e-04, 8.54e-05, 6.23e-03]    [7.87e-05, 8.37e-05, 6.23e-03]    []  
+8500      [5.82e-05, 6.95e-05, 6.21e-03]    [5.63e-05, 6.95e-05, 6.21e-03]    []  
+9000      [5.41e-05, 6.96e-05, 6.23e-03]    [5.17e-05, 6.86e-05, 6.23e-03]    []  
+9500      [9.70e-05, 8.25e-05, 6.20e-03]    [6.89e-05, 8.14e-05, 6.20e-03]    []  
+10000     [1.93e-04, 5.90e-05, 6.20e-03]    [1.12e-04, 5.91e-05, 6.20e-03]    []  
+10500     [6.93e-04, 8.06e-05, 6.21e-03]    [4.21e-04, 7.99e-05, 6.21e-03]    []  
+Epoch 10500: early stopping
+
+Best model at step 8500:
+  train loss: 6.34e-03
+  test loss: 6.34e-03
+  test metric: []
+
+Epoch 10500: saving model to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymReg/Cos/Train/model-10500.ckpt ...
+
+'train' took 51.821770 s
+
+Saving loss history to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymReg/Cos/Train/loss.dat ...
+Saving training data to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymReg/Cos/Train/train.dat ...
+Saving test data to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymReg/Cos/Train/test.dat ...
+Warning: 2000 points required, but 2025 points sampled.
+Mean residual: 0.015327789

@@ -1,0 +1,43 @@
+hendrixgpu01fl.unicph.domain
+0
+Warning: 2000 points required, but 2025 points sampled.
+Compiling model...
+Building feed-forward neural network...
+'build' took 0.050909 s
+
+'compile' took 16.379885 s
+
+Training model...
+
+Step      Train loss                        Test loss                         Test metric
+0         [1.17e+00, 1.02e+00, 6.16e-03]    [1.10e+00, 1.02e+00, 6.16e-03]    []  
+500       [1.15e-04, 3.10e-04, 1.48e-02]    [4.76e-05, 3.10e-04, 1.48e-02]    []  
+1000      [1.02e-04, 2.71e-04, 1.45e-02]    [6.14e-05, 2.71e-04, 1.45e-02]    []  
+1500      [2.36e-04, 2.98e-04, 1.37e-02]    [1.07e-04, 2.98e-04, 1.37e-02]    []  
+2000      [4.89e-04, 3.74e-04, 1.10e-02]    [4.69e-04, 3.73e-04, 1.10e-02]    []  
+2500      [1.74e-03, 3.30e-04, 8.09e-03]    [1.20e-03, 3.31e-04, 8.09e-03]    []  
+3000      [1.64e-04, 3.42e-04, 7.40e-03]    [2.04e-04, 3.43e-04, 7.40e-03]    []  
+3500      [2.00e-04, 1.89e-04, 6.46e-03]    [2.51e-04, 1.89e-04, 6.46e-03]    []  
+4000      [3.66e-04, 1.04e-04, 6.35e-03]    [1.96e-04, 1.05e-04, 6.35e-03]    []  
+4500      [4.79e-04, 7.38e-05, 6.31e-03]    [3.07e-04, 7.31e-05, 6.31e-03]    []  
+5000      [2.21e-04, 6.48e-05, 6.28e-03]    [1.99e-04, 6.43e-05, 6.28e-03]    []  
+5500      [2.32e-04, 6.28e-05, 6.30e-03]    [1.53e-04, 6.20e-05, 6.30e-03]    []  
+6000      [4.61e-04, 9.42e-05, 6.30e-03]    [2.05e-04, 9.38e-05, 6.30e-03]    []  
+6500      [3.00e-04, 6.30e-05, 6.27e-03]    [2.08e-04, 6.43e-05, 6.27e-03]    []  
+7000      [8.67e-04, 1.60e-04, 6.29e-03]    [3.64e-04, 1.63e-04, 6.29e-03]    []  
+Epoch 7000: early stopping
+
+Best model at step 5000:
+  train loss: 6.56e-03
+  test loss: 6.54e-03
+  test metric: []
+
+Epoch 7000: saving model to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/model-7000.ckpt ...
+
+'train' took 42.876728 s
+
+Saving loss history to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/loss.dat ...
+Saving training data to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/train.dat ...
+Saving test data to /home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/test.dat ...
+Warning: 2000 points required, but 2025 points sampled.
+Mean residual: 0.015612042

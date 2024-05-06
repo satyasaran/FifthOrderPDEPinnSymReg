@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/model-5500.ckpt"
-all_model_checkpoint_paths: "/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos/Train/model-5500.ckpt"
+model_checkpoint_path: "/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymReg/Cos/Train/model-10500.ckpt"
+all_model_checkpoint_paths: "/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymReg/Cos/Train/model-10500.ckpt"
