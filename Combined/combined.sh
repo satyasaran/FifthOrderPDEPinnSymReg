@@ -11,4 +11,4 @@
 #SBATCH --time=1:35:00
 hostname
 echo $CUDA_VISIBLE_DEVICES
-python3 nomagnetic_comb.py
+python3 combined.py

@@ -60,7 +60,7 @@ model = dde.Model(data, net)
 model.compile("adam", lr=0.0024,loss_weights=[1, 1, lamda])
 
 
-path_dir='/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymbolicRegression/Cos'
+path_dir='/home/trl102/Dir/MyDailyWork/PDE/DeepXde_PDE/FifthOrderPDE_PinnSymReg/Cos/Train'
 early_stopping = dde.callbacks.EarlyStopping(min_delta=1e-5, patience=2000)
 #model.compile("L-BFGS")
 losshistory, train_state =model.train(iterations=20000,display_every=500,model_save_path=path_dir+'/model',callbacks=[early_stopping])
