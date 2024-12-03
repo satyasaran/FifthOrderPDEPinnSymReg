@@ -23,6 +23,7 @@ The following approaches were implemented:
 
 3. **Symbolic Regression:**
    - Analytical solutions were derived using genetic programming for symbolic regression, resulting in interpretable models with a mean square error of \(O(10^{-3})\).
+   - https://github.com/satyasaran/FifthOrderPDEPinnSymReg/blob/main/Highlight%20Image.jpeg
 
 These methods offer new insights into modeling cardiovascular parameters and demonstrate the potential of integrating machine learning with symbolic regression for solving complex scientific problems.
 
