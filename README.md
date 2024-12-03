@@ -13,9 +13,9 @@ This research introduces a mathematical and computational framework for studying
 The following approaches were implemented:
 
 1. **Physics-Informed Neural Networks (PINNs):**
-   - Solved the governing PDEs across the spatial-temporal domain \([-1, 1] \times [0, 2]\).
+   - Solved the governing PDEs across the spatial-temporal domain [-1, 1]x [0, 2].
    - Bayesian hyperparameter optimization was employed for improved model performance.
-   - Achieved mean absolute residue error of \(O(10^{-3})\).
+   - Achieved mean absolute residue error of O(10^{-3}).
 
 2. **Machine Learning Integration:**
    - Solutions under three distinct initial conditions were merged using a random forest algorithm, achieving **99% accuracy** on the testing dataset.
@@ -32,8 +32,8 @@ These methods offer new insights into modeling cardiovascular parameters and dem
 
 ```plaintext
 .
-├── Cos/                       # Results from cosine-based initial conditions
-├── Exp/                       # Results from exponential-based initial conditions
-├── MLandSymReg/               # Machine learning and symbolic regression scripts
+├── Cos/                       # Code and Results from cosine-based initial conditions
+├── Exp/                       # Code and Results from exponential-based initial conditions
+├── MLandSymReg/               # Code and results from Machine learning and symbolic regression scripts
 ├── combined_data_solution.csv # Combined dataset of solutions for ML analysis
 ├── README.md                  # Project documentation
