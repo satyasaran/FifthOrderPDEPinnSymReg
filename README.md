@@ -1,7 +1,9 @@
+Physics of Fluids: Under revision
+Authors: Satyasaran Changdar, Bivas Bhaumik, Nabanita Sadhukhan, Sumit Pandey, Sabyasachi Mukhopadhyay, Soumen De, and Serafim Bakalis.
 Abstract: 
 This study explores a hybrid framework integrating machine learning techniques
-and symbolic regression via genetic programming for analyzing the nonlinear prop-
-agation of waves in arterial blood flow. We employ a mathematical framework to
+and symbolic regression via genetic programming for analyzing the nonlinear 
+propagation of waves in arterial blood flow. We employ a mathematical framework to
 simulate viscoelastic arterial flow, incorporating assumptions of long wavelength
 and large Reynolds numbers. We used a fifth-order nonlinear evolutionary equa-
 tion using reductive perturbation to represent the behavior of nonlinear waves in a
