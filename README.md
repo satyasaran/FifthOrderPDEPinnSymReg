@@ -1,4 +1,4 @@
-# FifthOrderPDEPinnSymReg
+# Integrating Symbolic Regression with Physics-Informed Neural Networks for Simulating Nonlinear Wave Dynamics in Arterial Blood Flow
 
 ## Overview
 
