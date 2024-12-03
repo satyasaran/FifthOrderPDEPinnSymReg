@@ -16,6 +16,7 @@ The following approaches were implemented:
    - Solved the governing PDEs across the spatial-temporal domain [-1, 1]x [0, 2].
    - Bayesian hyperparameter optimization was employed for improved model performance.
    - Achieved mean absolute residue error of O(10^{-3}).
+<img src="https://github.com/satyasaran/FifthOrderPDEPinnSymReg/blob/main/pinn.png" hight= "300" width="1000"/>
 
 2. **Machine Learning Integration:**
    - Solutions under three distinct initial conditions were merged using a random forest algorithm, achieving **99% accuracy** on the testing dataset.
